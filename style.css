@@ -1,0 +1,47 @@
+.bookLibraryTable {
+    background-color: red;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+tr {
+    background-color: rgb(250, 113, 50);
+}
+
+th {
+    color: rgb(68, 221, 21);
+}
+
+.formTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+.formItems {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.formButtons { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.addBook {
+   
+}
+
+label{
+    display: flex;
+}
+
+
