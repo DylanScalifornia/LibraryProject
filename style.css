@@ -1,47 +1,43 @@
-.bookLibraryTable {
-    background-color: red;
-    padding: 0;
+body {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-tr {
-    background-color: rgb(250, 113, 50);
+
+#newBookBtn {
+   background-color: blue;
+   color: white;
+   padding: 8px;
+   border-radius: 10px;
 }
 
-th {
-    color: rgb(68, 221, 21);
+#newBookForm {
+    display: none;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
 }
 
-.formTitle{
+#formContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
-}
-
-
-.formItems {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
-}
-
-.formButtons { 
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+}
+
+label {
+    display: flex;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.addBook {
-   
-}
-
-label{
+input {
     display: flex;
 }
-
 
